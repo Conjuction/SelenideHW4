@@ -12,19 +12,19 @@ public class TestRegistrationForm {
 
     @Test
     void registrationForm(){
-        String firstName = "Dmitrii";
-        String lastName = "Sukhinin";
+        String firstName = "test";
+        String lastName = "test";
         String userEmail = "test@mail.ru";
         String gender = "Male";
         String userNumber = "1234567890";
-        String month = "October";
-        String year = "1997";
+        String month = "November";
+        String year = "1987";
         String subjects = "Maths";
         String hobbies = "Sports";
         String currentAddress = "Aqtobe";
         String state = "NCR";
         String city = "Delhi";
-        String dayOfBirth = "22 October,1997";
+        String dayOfBirth = "22 November,1987";
         String fileName = "avatar.jpg";
         open("https://demoqa.com/automation-practice-form");
         executeJavaScript("$('#fixedban').remove()");
